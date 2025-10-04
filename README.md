@@ -23,3 +23,11 @@ pip install pyrekit-server/
 ```bash
 pip install pyrekit_server
 ```
+
+## Versions
+
+- 0.0.2:
+    Removed inspect from dependencies.
+
+- 0.0.1:
+    First version

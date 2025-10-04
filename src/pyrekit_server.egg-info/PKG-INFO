@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: pyrekit-server
-Version: 0.0.1
+Version: 0.0.2
 Summary: The backend server for the pyrekit toolkit.
 Author-email: TuTheWeeb <eduardo.tuler@gmail.com>
 Project-URL: Homepage, https://github.com/TuTheWeeb/pyrekit-server
@@ -12,7 +12,6 @@ Requires-Python: >=3.10
 Description-Content-Type: text/markdown
 Requires-Dist: Flask
 Requires-Dist: Flask-Cors
-Requires-Dist: inspect
 Requires-Dist: logging
 Requires-Dist: waitress
 
@@ -41,3 +40,11 @@ pip install pyrekit-server/
 ```bash
 pip install pyrekit_server
 ```
+
+## Versions
+
+- 0.0.2:
+    Removed inspect from dependencies.
+
+- 0.0.1:
+    First version
