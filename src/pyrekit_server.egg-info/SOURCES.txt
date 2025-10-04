@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+src/pyrekit-server/server.py
+src/pyrekit_server.egg-info/PKG-INFO
+src/pyrekit_server.egg-info/SOURCES.txt
+src/pyrekit_server.egg-info/dependency_links.txt
+src/pyrekit_server.egg-info/requires.txt
+src/pyrekit_server.egg-info/top_level.txt

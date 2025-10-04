@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyrekit-server"
+version = "0.0.1"
+authors = [
+  { name = "TuTheWeeb", email = "eduardo.tuler@gmail.com" },
+]
+description = "The backend server for the pyrekit toolkit."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "Flask",
+    "Flask-Cors",
+    "inspect",
+    "logging",
+    "waitress",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/TuTheWeeb/pyrekit-server"
+"Repository" = "https://github.com/TuTheWeeb/pyrekit-server"
+
+[tool.setuptools]
+include-package-data = true
